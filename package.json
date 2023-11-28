@@ -1,0 +1,22 @@
+{
+	"name": "chu-evm-contract",
+	"devDependencies": {
+		"@nomicfoundation/hardhat-ledger": "^1.0.1",
+		"@nomicfoundation/hardhat-toolbox": "^2.0.2",
+		"@nomicfoundation/hardhat-verify": "^1.1.1",
+		"hardhat": "^2.15.0",
+		"prettier": "^2.5.1",
+		"eslint": "^8.6.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-import": "^2.14.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"@babel/eslint-parser": "^7.5.4"
+	},
+	"dependencies": {
+		"@nomiclabs/hardhat-waffle": "^2.0.6",
+		"@openzeppelin/contracts": "^4.9.3",
+		"config": "^3.3.9",
+		"dotenv": "^16.1.4"
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "hardhatConfig": {
+    "solidity": {
+      "solidityVersion": "0.8.11",
+      "optimizerEnabled": true,
+      "optimizerRuns": 200
+    },
+
+    "networks": {
+      "polygon": {
+        "url": "json_rpc_url",
+        "chainId": 1,
+        "ledgerAccount": "LEDGER_ACCOUNT_ADDRESS"
+      }
+    }
+  },
+  "etherscan": {
+    "apiKey": {
+      "polygon": "YOUR_API_KEY"
+    }
+  },
+
+  "contractsConfig": {
+    "contractName": "CHUToken",
+
+    "decimals": 18
+  }
+}
